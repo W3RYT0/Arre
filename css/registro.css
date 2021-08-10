@@ -17,7 +17,7 @@
  */
 
 body {
-  background: url(https://drive.google.com/file/d/133zNu0Z05ED5RfmiMCR-3X1hcXb6ISLS/view?usp=sharing);
+  background: url(../img/bg-registro.jpg);
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, 0.664);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
   object-fit: cover;
