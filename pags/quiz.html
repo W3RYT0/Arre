@@ -11,85 +11,82 @@
 
 </head>
 <body class="h-100">
-  <div id="myCarousel" class="h-100 carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="h-100 carousel-inner">
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+  <div id="myCarousel" class="h-100 carousel slide carousel-fade" data-bs-touch="false" data-bs-interval="false">
+      <form class="h-100 carousel-inner" action="">
+        <div class="img1 carousel-item active">        
+          <div class="bg ">            
+            <div class="carousel-caption">
+              <h2>Selecciona tu Viaje</h2>
+              <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                  <div class="card" style="width: 13rem;">
+                    <img src="https://estepais.com/wp-content/uploads/2021/02/salgadomacedonio-acapulco-crimen-delincuencia-gobierno-morena.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Acapulco Tour</h5>
+                      <p class="card-text">Del 18 al 20 de Diciembre.</p>
+                      <input type="radio" class="btn-check" name="options-outlined" id="option1" autocomplete="off" checked>
+                      <label class="btn btn-outline-danger" for="option1">Seleccionar</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-auto">
+                  <div class="card" style="width: 13rem;">
+                    <img src="https://umcentral.umanizales.edu.co/wp-content/uploads/2021/03/cancun.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cancún Tour</h5>
+                      <p class="card-text">Del 18 al 20 de Diciembre.</p>
+                      <input type="radio" class="btn-check" name="options-outlined" id="option2" autocomplete="off">
+                      <label class="btn btn-outline-danger" for="option2">Seleccionar</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-auto">
+                  <div class="card" style="width: 13rem;">
+                    <img src="https://www.nitu.mx/wp-content/uploads/2020/09/Puerto-Vallarta_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Vallarta Tour</h5>
+                      <p class="card-text">Del 18 al 20 de Diciembre.</p>
+                      <input type="radio" class="btn-check" name="options-outlined" id="option3" autocomplete="off">
+                      <label class="btn btn-outline-danger" for="option3">Seleccionar</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h4 class="mt-2">Revisa y escoge la fecha adecuada</h4>             
+              <button class="btn btn-lg btn-secondary fw-bold border-white" type="button" data-bs-target="#myCarousel" data-bs-slide="next">Siguiente</button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+        <div class="img2 carousel-item">        
+          <div class="bg ">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Some representative placeholder content for the second slide of the carousel.</p>
+              <button class="btn btn-lg btn-secondary fw-bold border-white" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">Anterior</button>
+              <button class="btn btn-lg btn-secondary fw-bold border-white" type="button" data-bs-target="#myCarousel" data-bs-slide="next">Siguiente</button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+        <div class="img3 carousel-item">        
+          <div class="bg">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>Some representative placeholder content for the third slide of this carousel.</p>
+              <button class="btn btn-lg btn-secondary fw-bold border-white" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">Anterior</button>
+              <button class="btn btn-lg btn-secondary fw-bold border-white" type="button" data-bs-target="#myCarousel" data-bs-slide="next">Siguiente</button>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Siguiente</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-  </div>
-
-    <!--<div class="container">
-  
-        <ul class="slider">
-          <li id="slide1">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3947459/car.jpg"/>
-          </li>
-          <li id="slide2">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3947459/sunset.jpg"/>
-          </li>
-          <li id="slide3">
-            <h1>Ejemplo con otros elementos</h1>
-            <p>Esto es un párrafo de ejemplo para comprobar que podemos meter cualquier tipo de elementos en el slider</p>
-            <a href="https://kikopalomares.com/">¡Corre a mi web para más contenido!</a>
-          </li>
-        </ul>
-        
-        <ul class="menu">
-          <li>
-            <a href="#slide1">1</a>
-          </li>
-          <li>
-            <a href="#slide2">2</a>
-          </li>
-           <li>
-            <a href="#slide3">3</a>
-          </li>
-        </ul>
-        
-      </div>-->
-
+        </div>       
+    
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+    </form>
       <script src="../js/bootstrap.bundle.min.js"></script>  
     
 </body>
